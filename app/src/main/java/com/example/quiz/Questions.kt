@@ -102,12 +102,12 @@ class Questions {
 
         val ques9 =  Question(
             9,
-            "Who has the most deadly blood demon art?",
-            "Rui",
-            "Akaza",
-            "Doma",
-            "Kokushibo",
-            "Doma",
+            "How many fingers did Sukuna had?",
+            "16",
+            "24",
+            "20",
+            "30",
+            "20",
             ""
         )
         questionsList.add(ques9)
