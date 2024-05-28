@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:padding="20dp"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="361dp"
+        android:layout_height="107dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Welcome to The Ultimate Quiz!!"
+        android:textAlignment="center"
+        android:textColor="#683232"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="280dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#747860"
+        android:text="START"
+        android:textColor="#D3E4F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSettings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="280dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#747860"
+        android:text="SETTINGS"
+        android:textColor="#FFD3E4F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="267dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="By Harsh Khulwe"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#494141"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
